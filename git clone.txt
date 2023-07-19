@@ -1,0 +1,9 @@
+#git clone
+#1. copiar link de repositorio a copiar
+https://github.com/jnfmunoz/apuntes-python.git
+
+#2. nos dirigimos al directorio donde tenemos nuestros proyectos 
+cd proyectos
+
+#3. clonamos el repositorio
+git clone https://github.com/jnfmunoz/apuntes-python.git

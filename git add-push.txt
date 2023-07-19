@@ -1,0 +1,17 @@
+#con esto inicializamos el repositorio
+git init 
+
+git add .
+git commit -m "Primer commit"
+
+#para recuperar el último commit
+git checkout -- .
+
+#para poder ver los commit realizados en el proyecto
+git log
+
+#añadimos nuestro repositorio a git - 1 vez por repositorio 
+git remote add origin https://github.com/jnfmunoz/apuntes-python.git 
+
+#para añadir la rama master
+git push -u origin master
